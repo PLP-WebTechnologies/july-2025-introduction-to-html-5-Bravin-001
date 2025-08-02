@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Bravin Chacha | Portfolio</title>
+</head>
+<body>
+
+  <!-- Skip Link -->
+  <a href="#main-content" class="skip-link">Skip to main content</a>
+
+  <header role="banner">
+    <h1>Bravin Chacha</h1>
+    <p>Web Developer | Graphic Designer | Learner</p>
+    <nav role="navigation" aria-label="Main navigation">
+      <ul>
+        <li><a href="#about">About</a></li>
+        <li><a href="#projects">Projects</a></li>
+        <li><a href="#skills">Skills</a></li>
+        <li><a href="#contact">Contact</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <!-- Main Content -->
+  <main id="main-content" role="main">
+
+    <section id="about">
+      <h2>About Me</h2>
+      <p>Hello! I'm Bravin, a passionate web development student who loves building creative digital solutions. I specialize in HTML, CSS, and JavaScript.</p>
+    </section>
+
+    <section id="projects">
+      <h2>Projects</h2>
+
+      <article>
+        <h3>Project 1: My First Website</h3>
+        <p>This is a simple responsive webpage I built using HTML and CSS.</p>
+        <a href="#" aria-label="View My First Website project">View Project</a>
+      </article>
+
+      <article>
+        <h3>Project 2: Portfolio Page</h3>
+        <p>A sleek and professional portfolio site to showcase my skills.</p>
+        <a href="#" aria-label="View Portfolio Page project">View Project</a>
+      </article>
+
+    </section>
+
+    <section id="skills">
+      <h2>Skills</h2>
+      <ul>
+        <li>HTML5 & Semantic Markup</li>
+        <li>CSS3 & Flexbox</li>
+        <li>JavaScript Basics</li>
+        <li>Graphic Design with Canva</li>
+      </ul>
+    </section>
+
+    <section id="contact">
+      <h2>Contact Me</h2>
+      <form action="#" method="post" aria-label="Contact form">
+        <label for="name">Name:</label><br>
+        <input type="text" id="name" name="name" required aria-required="true"><br><br>
+
+        <label for="email">Email:</label><br>
+        <input type="email" id="email" name="email" required aria-required="true"><br><br>
+
+        <label for="message">Message:</label><br>
+        <textarea id="message" name="message" rows="5" required aria-required="true"></textarea><br><br>
+
+        <button type="submit">Send Message</button>
+      </form>
+    </section>
+
+  </main>
+
+  <aside role="complementary">
+    <h3>Quick Facts</h3>
+    <ul>
+      <li>Based in Kenya</li>
+      <li>Loves learning and design</li>
+      <li>Future software engineer</li>
+    </ul>
+  </aside>
+
+  <footer role="contentinfo">
+    <p>&copy; 2025 Bravin Chacha. All rights reserved.</p>
+  </footer>
+
+</body>
+</html>
